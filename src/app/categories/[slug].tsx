@@ -10,6 +10,7 @@ import { Redirect, Stack, useLocalSearchParams } from 'expo-router';
 
 import { ProductListItem } from '../../components/product-list-item';
 import { getCategoryAndProducts } from '../../api/api';
+import React from 'react';
 
 const Category = () => {
   const { slug } = useLocalSearchParams<{ slug: string }>();
