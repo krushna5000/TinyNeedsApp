@@ -1,5 +1,5 @@
 import { Session } from '@supabase/supabase-js';
-import React, {
+import {
   createContext,
   PropsWithChildren,
   useContext,
